@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mesa {
+  font-size: 10px; /*<--- TAMAÑO GENERAL*/
+  width: 120em;
+  height: 60em;
+  background-color: var(--colorGeneral);
+  margin: auto;
+  margin-top: 25px;
+  padding: 5em;
+  box-sizing: border-box;
+}
+
+.mesa > div {
+  width: 10em;
+  height: 10em;
+  background-color: #ffffff;
+  border-radius: 0.3em;
+  text-align: var(--tamano);
+  padding: 1em;
+  box-sizing: border-box;
+  float: left;
+  margin: 1em 1.1em 1em 1.1em;
+}
+
+.ico {
+  font-size: 5em;
+}
+
